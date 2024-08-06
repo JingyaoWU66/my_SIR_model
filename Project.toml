@@ -1,0 +1,13 @@
+name = "my_SIR_pkg"
+uuid = "aee3fdc3-f0c2-4abd-a18c-cb0b01e7550a"
+authors = ["JingyaoWU66 <jingyao.wu@unsw.edu.au> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
