@@ -6,6 +6,7 @@ Pkg.add(path="/Users/jingyaowu/.julia/dev/my_SIR_pkg")
 #Pkg.add("my_SIR_pkg")
 Pkg.status()
 Pkg.instantiate()
+using Revise
 using my_SIR_pkg
 
 # Define parameters for the SIR model
